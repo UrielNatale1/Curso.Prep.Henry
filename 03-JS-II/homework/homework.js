@@ -4,13 +4,24 @@ function obtenerMayor(x, y) {
   // "x" e "y" son números enteros (int).
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
-  // Tu código:
+  // Tu código: 
+  if ( x < y ) {
+    return y
+  }  if ( x > y ) { 
+    return x 
+  } if ( x == y ) {
+    Math.random ( x , y ) 
+  }
 }
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
+} if ( edad >= 18 ) {
+    return "Allowed" ;
+} if ( edad < 18 ) {
+    return "Not allowed"; 
 }
   
 function conection(status) {
@@ -19,7 +30,13 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
-}
+  if ( status === 1 )
+    return "Online" ;
+} if ( status === 2 ) {
+    return "Away" ;
+} if ( status ===! 1 || status ===! 2 ) {
+    return "Offline" ;
+} 
 
 function saludo(idioma) {
   // Devuelve un saludo en tres diferentes lenguajes:
@@ -28,6 +45,18 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  if ( idioma = "aleman") {
+    return "Guten Tag!" ;
+  } 
+  if ( idioma = "mandarin" ) {
+    return "Ni Hao!" ;
+  }
+  if ( idioma = "ingles") {
+    return "Hello!" ; 
+  }
+  if ( idioma =! "aleman" || idioma ==! "mandarin" || idioma ==! "ingles" || idioma == undefined) {
+    return "Hola!";
+  }
 }
 
 function colors(color) {
@@ -38,18 +67,46 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
+  switch ( colores ) {
+    case "blue":
+      color = "This is blue"
+      break;
+    case "red":
+      color = "This is red"
+      break;
+    case "green":
+      color = "This is green"
+      break;
+    case "orange":
+      color = "This is orange"
+      break;
+    default: 
+      color = "Color not found" 
+      break; 
+
+
+  }
 }
+
 
 function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
+  if ( numero === 10 || numero === 5) {
+    return true
+  }
+  return false
 }
 
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
+  if ( numero < 50 && numero > 30 ) {
+    return true 
+  }
+  return false
 }
 
 function esEntero(numero) {
@@ -60,13 +117,26 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-}
+  if ( (numero - Math.floor (numero)) = 0 ) {
+    return true
+  } 
+  return false
+} 
 
 function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
+  if ( numero % 3 === 0 ) {
+    return "fizz"
+  } 
+  if ( numero % 5 === 0 ) {
+    return "buzz"
+  }
+  if ( numero % 3 === 0 && numero % 5 === 0 ){
+    return "fizzbuzz"
+  } 
 }
 
 function operadoresLogicos(num1, num2, num3) {
