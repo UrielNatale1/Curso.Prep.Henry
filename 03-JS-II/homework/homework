@@ -1,0 +1,21 @@
+El bucle FOR se utiliza para repetir una o más instrucciones un determinado número de veces. 
+Este bucle tiene tres partes, la primera es la inicialización, que se coloca la variable que utilizaremos
+para llevar la cuentalas veces que se ejecuta el bucle. La segunda parte es la condición, es lo que se debe
+ cumplir para que siga funcionando el bucle. Y por ultimo tenemos la actualización, que sirve para indicar 
+ como queremos que se modifique la variable cada vez que termina una repetición. 
+ Ejemplo:
+    for ( var i = 0      ;  i < 10   ; i++           ) 
+        ( inicializacion ; condicion ; actualización )
+    Se inicializa la variable i a 0. Como condición para realizar una repeticion i tiene que ser menor que 10.
+    Y la variable se incrementara en 1. 
+
+    ---------
+
+    Los operadores && que seria los mismo que "y" y || que seria lo mismo que "o" se utilizan cuando hay 
+    dos o más condiciones. 
+    Por ejemplo: 
+      if ( num < 2 && num > 3 ) ; en este ejemplo "if" se ejecutara si se cumplen ambas condiciones
+      if ( num < 2 || num > 3 ) ; en este ejemplo "if" se ejecutara si se cumple por lo menos una
+
+      El simbolo "!" se utiliza para la negación.
+      Por ejemplo: color =! verde ; lo que queremos decir en este expresion que color no es igual a verde. 

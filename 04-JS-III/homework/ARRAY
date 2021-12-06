@@ -1,0 +1,3 @@
+Los arrays son objetos que sirven para almacenar cualquier tipo de dato en su interior. Puede realizar
+muchas acciones con ellos, por ejemplo: añadir un elemento en su inicio o al final, puedes quitar el primer 
+elemento o el ultimo, puede saber cuantos elementos componen el array.  
