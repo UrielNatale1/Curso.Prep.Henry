@@ -1,0 +1,5 @@
+Decimos que un objeto es una coleccion de datos que tiene propiedades y metodos. Las propiedades 
+son los valores asignados al objeto. En caso que la propiedad sea un metodo estariamos hablando de una funcion.
+El bucle for in sirve para iterar todas las propiedades enumerables de un objeto. 
+La principal diferencia entre notacion de puntos y notacion de corchetes es que en la notacion de corchetes 
+podemos accedere a propiedades que tienen un espacio o caracter no permitido en la notacion de punto. 
