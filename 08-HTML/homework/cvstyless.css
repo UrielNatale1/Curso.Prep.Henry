@@ -1,0 +1,32 @@
+
+
+
+#columna {
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:210px;
+    margin-top:10px;
+    border: solid black; 
+    background: whitesmoke ;
+} 
+ 
+ 
+ body {
+    margin-left: 232px; 
+    background: grey ;
+    flex-direction: column;
+ }
+ #segundoId {
+     font-size: 16px
+ }
+ #tercerId{
+     font-size: 16px
+ }
+ul {
+    font-size: 20px;
+}
+li { 
+    font-weight:bold
+}
+
